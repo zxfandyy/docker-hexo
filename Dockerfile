@@ -8,6 +8,6 @@ RUN echo "Asia/Shanghai" > /etc/timezone \
     && apk add --no-cache git \
     && npm install hexo-cli -g \    
     && chmod 777 /build_and_run.sh
-EXPOSE 4000
+EXPOSE 8080
 
 ENTRYPOINT ["sh","/build_and_run.sh"]
