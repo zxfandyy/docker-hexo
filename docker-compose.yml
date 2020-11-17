@@ -3,7 +3,7 @@ services:
   hexo:
     build: .
     ports: 
-      - "4000:4000"
+      - "8080:8080"
     environment: 
       - PUBLIC_HEXO_GITHUB_URL=https://github.com/zeusro/docker-hexo.git
     entrypoint:
